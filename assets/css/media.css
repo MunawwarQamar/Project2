@@ -1,0 +1,298 @@
+@media screen and (min-width: 920px) and (max-width: 1240px) {
+    .container {
+      width: calc(100% - 160px);
+    }
+    .logo-list {
+      height: 154px;
+    }
+    .logo {
+      flex-wrap: nowrap;
+    }
+    .logo-none svg {
+      width: 60px;
+    }
+    .pricing-info {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .pricing-header {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 850px) and (max-width: 920px) {
+    .container {
+      width: calc(100% - 100px);
+    }
+    .logo-list {
+      height: 254px;
+    }
+    .logo {
+      flex-wrap: nowrap;
+    }
+    .logo-none svg {
+      width: 60px;
+    }
+    .pricing-info {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .pricing-header {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 550px) and (max-width: 850px) {
+    .container {
+      width: calc(100% - 60px);
+    }
+    header {
+      font-size: 12px;
+    }
+    .row {
+      flex-wrap: nowrap;
+    }
+    header ul {
+      flex-wrap: nowrap;
+      gap: 10px;
+    }
+    .auth {
+      flex-wrap: nowrap;
+      gap: 10px;
+    }
+    header .active,
+    .login {
+      padding: 12px 10px;
+    }
+    .hero {
+      height: 392px;
+      width: 565px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+    }
+    .Explore,
+    .View {
+      padding: 14px 14px;
+    }
+    .logo-list {
+      height: 254px;
+    }
+    .logo {
+      padding: 10px 0;
+    }
+    .logo-none svg {
+      width: 40px;
+    }
+    .logo a {
+      padding: 20px 10px;
+    }
+    .benefits-info,
+    .courses-info,
+    .testimonials-info,
+    .pricing-info {
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+    }
+    .pricing-info {
+      align-items: center;
+    }
+    .benefit-header,
+    .courses-header,
+    .testimonials-header,
+    .pricing-header {
+      width: 100%;
+    }
+    .benefit span {
+      font-size: 48px;
+    }
+    .benefit {
+      width: calc((100% - 20px) / 2);
+      padding: 30px;
+    }
+    .course-details {
+      flex-direction: column;
+      align-items: start;
+      gap: 14px;
+    }
+    .teachers,
+    .testimonial .description {
+      padding: 30px;
+    }
+    .price{
+      flex-wrap: nowrap;
+    }
+    .cost span:first-of-type {
+      font-size: 38px;
+      font-weight: 600;
+    }
+    .features{
+     padding: 30px 5px;
+    }
+    .up{
+      flex-direction: column;
+      gap: 24px;
+    }
+    .down{
+      font-size: 12px;
+    }
+    footer{
+      padding: 30px 0;
+    }
+    footer .row{
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .container {
+      width: calc(100% - 30px);
+    }
+    header nav {
+      display: none;
+    }
+    .auth {
+      flex-wrap: nowrap;
+      gap: 10px;
+    }
+    .login {
+      padding: 12px 10px;
+    }
+    .auth svg {
+      display: block;
+    }
+    .hero {
+      height: 492px;
+      width: 300px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+    h5 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+    }
+    .Explore,
+    .View {
+      padding: 14px 14px;
+    }
+    .logo-list {
+      height: 154px;
+    }
+    .logo {
+      padding: 10px 0;
+    }
+    .logo-tel {
+      display: none;
+    }
+  
+    .logo a {
+      padding: 20px 10px;
+    }
+    .video-content svg {
+      width: 20px;
+      height: 20px;
+      padding: 10px;
+    }
+    .video-content {
+      margin-bottom: 5rem;
+    }
+    .benefits-info,
+    .courses-info,
+    .testimonials-info,
+    .pricing-info {
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+    }
+    .pricing-info {
+      align-items: center;
+    }
+    .benefit-header,
+    .courses-header,
+    .testimonials-header,
+    .pricing-header {
+      width: 100%;
+    }
+    .benefit,
+    .course {
+      width: 100%;
+      padding: 30px;
+    }
+    .benefit span {
+      font-size: 38px;
+    }
+    .course-details {
+      flex-direction: column;
+      align-items: start;
+      gap: 14px;
+    }
+    .testimonial {
+      width: 100%;
+    }
+    .teachers,
+    .testimonial .description {
+      padding: 30px;
+    }
+    .price{
+      width: 100%;
+      flex-wrap: nowrap;
+    }
+    .cost span:first-of-type {
+      font-size: 38px;
+      font-weight: 600;
+    }
+    .features{
+      padding: 40px 10px;
+    }
+    .features span{
+      font-size: 12px;
+    }
+    .up{
+      flex-direction: column;
+      gap: 24px;
+    }
+    .down{
+      font-size: 12px;
+    }
+    footer{
+      padding: 30px 0;
+    }
+    footer .row{
+      flex-direction: column;
+    }
+  }
+  

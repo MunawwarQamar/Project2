@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #f7f7f8;
+  padding: 20px 0 0 0;
+  color: #262626;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #262626;
+}
+h1 {
+  color: #1a1a1a;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 23px;
+}
+h5 {
+  font-size: 20px;
+}
+svg {
+  box-sizing: content-box;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f7f7f8;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  border-bottom: 1px solid #f1f1f3;
+  padding: 20px 0 24px 0;
+  font-size: 18px;
+}
+
+.container {
+  width: calc(100% - 320px);
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+header .active {
+  background-color: #f1f1f3;
+  padding: 14px 24px;
+  border-radius: 8px;
+}
+.auth {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.auth svg{
+    display: none;
+}
+
+.login {
+  border-radius: 8px;
+  padding: 14px 34px;
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.hero {
+    
+  width: 965px;
+  height: 492px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sub-title1 {
+  position: relative;
+  padding: 14px 30px 14px 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 11px;
+  border: 1px solid #f1f1f3;
+  background-color: #fcfcfd;
+}
+.sub-title1 svg:first-of-type {
+  position: absolute;
+  left: -24px;
+  top: -30px;
+}
+.sub-title1 svg:last-of-type {
+  padding: 14px;
+  border-radius: 6px;
+  background-color: #fff4e5;
+}
+
+.sub-title1 span {
+  color: #ff9500;
+}
+.sub-title2 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.Explore,
+.View,
+.teachers a {
+  padding: 18px 24px;
+  border-radius: 8px;
+}
+.Explore {
+  background-color: #ff9500;
+  color: #fff;
+}
+.View {
+  border: 1px solid #f1f1f3;
+  background-color: #fff;
+}
+
+.logo-list {
+  height: 354px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #f1f1f3;
+  background-color: #fcfcfd;
+}
+.logo a {
+  padding: 30px 20px;
+}
+.logo-none {
+  border-right: 1px solid #f1f1f3;
+}
+
+.video-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 9rem;
+}
+.video-content img {
+  width: 100%;
+  border-radius: 12px;
+}
+.video-content svg {
+  position: absolute;
+  padding: 14px;
+  border-radius: 68px;
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  width: 30px;
+  height: 30px;
+
+}
+
+.benefits,
+.Courses,
+.Pricing {
+  margin-bottom: 6rem;
+}
+.benefits .row,
+.Courses .row,
+.Testimonials .row,
+.Pricing .row {
+  flex-direction: column;
+  gap: 80px;
+  align-items: start;
+}
+
+.benefits-info,
+.courses-info,
+.testimonials-info,
+.pricing-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 300px;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.benefit-header,
+.courses-header,
+.testimonials-header,
+.pricing-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: calc((100% - 300px) / 2);
+}
+.benefit-header-description,
+.courses-header-description,
+.testimonials-header-description,
+.pricing-header-description {
+  color: #59595a;
+}
+
+.benefit-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.benefit,
+.course {
+  width: calc((100% - 40px) / 3);
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+  border-radius: 12px;
+  background: #fff;
+}
+.benefit span {
+  align-self: flex-end;
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.benefit-title,
+.course-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.description {
+  color: #4c4c4d;
+}
+.benefit svg {
+  align-self: flex-end;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  background: #fcfcfd;
+}
+
+.course-cards,
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.course {
+  width: calc((100% - 30px) / 2);
+  gap: 30px;
+  padding: 30px;
+}
+.course img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+.course-details,
+.teachers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-details-span {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.course-details-span span:first-of-type,
+.course-details-span span:last-of-type {
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  padding: 10px 16px;
+  color: #4c4c4d;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.course a {
+  text-align: center;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  background: #f7f7f8;
+}
+.Testimonials {
+  margin-bottom: 10.5rem;
+}
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.testimonial {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc((100% - 30px) / 2);
+  gap: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.testimonial .description {
+  padding: 50px;
+}
+.teachers {
+  background: #fcfcfd;
+  padding: 30px 50px;
+  width: 100%;
+}
+
+.teacher {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+.teachers a {
+  background: #f7f7f8;
+}
+.pricing-info {
+  align-items: center;
+}
+
+.Pricing .buttons {
+  padding: 26px 42px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.Pricing .buttons a {
+  padding: 14px 30px;
+  color: #4c4c4d;
+}
+.Pricing .buttons .active {
+  background: #ff9500;
+  border-radius: 6px;
+  color: #fff;
+}
+.pricing-cards {
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  padding: 50px;
+}
+
+.price {
+  width: calc((100% - 30px) / 2);
+  padding: 50px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 12px;
+  border: 1px solid #f1f1f3;
+  background: #fcfcfd;
+}
+.price h4 {
+  font-size: 22px;
+  border-radius: 6px;
+  border: 1px solid #ffeacc;
+  background: #fff9f0;
+  padding: 12px 22px;
+  width: 100%;
+  text-align: center;
+}
+.cost span:first-of-type {
+  font-size: 58px;
+  font-weight: 600;
+}
+.cost span:last-of-type,
+.featuer-item span {
+  color: #4c4c4d;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 14px 14px 0px 0px;
+  border: 1px solid #f1f1f3;
+  background: #fff;
+}
+
+.featuer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.featuer-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  width: 100%;
+}
+.featuer-item svg {
+  padding: 6px;
+  border-radius: 6px;
+  background: #fff4e5;
+}
+
+.none svg {
+  background-color: #fff;
+  border: 1px solid #f1f1f3;
+}
+
+.get {
+  padding: 20px 24px;
+  border-radius: 0px 0px 8px 8px;
+  background: #ff9500;
+  width: 100%;
+  text-align: center;
+}
+.get a {
+  color: #fff;
+}
+footer {
+  background-color: #fff;
+  padding: 100px 0 30px 0;
+}
+.up {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.start {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.start-items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+.start-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.end {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer-items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-items nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex-direction: column;
+}
+.footer-items nav ul a {
+  color: #59595a;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.social svg {
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  background: #f7f7f8;
+  padding: 14px;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  border-top: 1px solid #f1f1f3;
+}
+.down {
+  width: 100%;
+  text-align: center;
+  color: #656567;
+  margin-top: 50px;
+}
